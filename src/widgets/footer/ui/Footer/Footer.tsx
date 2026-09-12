@@ -10,10 +10,10 @@ import {
 export const Footer = () => {
   return (
     <footer className="border-t border-gold/25 custom-bg-gold text-black">
-      <div className="mx-auto grid max-w-7xl gap-12 px-4 py-16 sm:grid-cols-2 sm:px-6 lg:grid-cols-4 lg:px-8">
+      <div className="inline-padding grid gap-12 px-4 py-16 sm:grid-cols-2 sm:px-6 lg:grid-cols-4 lg:px-8">
 
-        <div className="space-y-6">
-          <Logo />
+        <div className="flex flex-col gap-6">
+          <Logo style={"dark"} />
 
           <p className="max-w-xs text-sm leading-relaxed text-black/60">
             Jewelry that whispers your story.

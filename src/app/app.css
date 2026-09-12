@@ -17,10 +17,21 @@ body {
   }
 }
 
+.inline-padding {
+  @apply px-12 sm:px-16 lg:px-24
+}
+
 .custom-bg-gold {
   background: #d7cbc1;
 }
 
 .custom-text-gold {
   color: #d7cbc1;
+}
+
+.star-after {
+  &::after {
+    content: "✦";
+    margin-left: 12px;
+  }
 }

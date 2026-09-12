@@ -10,7 +10,7 @@ const NavigationsLinksList = () => {
           key={link.to}
           to={link.to}
           className={({ isActive }) =>
-            `transition-colors hover:text-gold ${isActive ? "text-gold" : "text-white/80"}`
+            `p-1 transition-colors hover:text-gold ${isActive ? "text-gold" : "text-white/80"}`
           }
         >
           {link.label}
