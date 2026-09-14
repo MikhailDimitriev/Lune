@@ -11,7 +11,7 @@ export const Header = () => {
     <header
       className={`inline-padding sticky top-0 z-50 mx-auto flex h-16 items-center justify-between gap-4 border-b text-white transition-colors duration-300 lg:h-20 ${
         solid
-          ? "border-gold/25 bg-black/95 backdrop-blur"
+          ? "border-gold/25 bg-dark backdrop-blur"
           : "border-transparent bg-transparent"
       }`}
     >

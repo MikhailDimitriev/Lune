@@ -1,5 +1,7 @@
 import type { Route } from "./+types/HomePage";
 
+import { CollectionPreview } from "~/widgets/collection-preview";
+import { CollectionsSection } from "~/widgets/collections";
 import { Hero } from "~/widgets/hero";
 
 export function meta({}: Route.MetaArgs) {
@@ -13,6 +15,8 @@ export default function HomePage() {
   return (
     <main>
       <Hero />
+      <CollectionPreview />
+      <CollectionsSection />
     </main>
   );
 }

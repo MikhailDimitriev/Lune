@@ -1,5 +1,4 @@
 import { Link } from "react-router";
-
 import { cartCount } from "../../model/cart.model";
 
 export const CartIcon = () => {

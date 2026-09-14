@@ -1,11 +1,11 @@
 import { Link } from "react-router";
 
-type FooterColumnProps = {
+type FooterNavigationsProps = {
   title: string;
   links: { to: string; label: string }[];
 };
 
-export const FooterNavigations = ({ title, links }: FooterColumnProps) => {
+export const FooterNavigations = ({ title, links }: FooterNavigationsProps) => {
   return (
     <div>
       <h3 className="p-1 mb-6 text-xs font-semibold tracking-[0.25em] text-black uppercase">

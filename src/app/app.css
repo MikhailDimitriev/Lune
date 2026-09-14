@@ -6,6 +6,7 @@
   --font-display: "Playfair Display", "Inter", ui-serif, Georgia, serif;
   --color-gold: #c6a15b;
   --color-gold-light: #eadcc0;
+  --color-dark: #1d1916;
 }
 
 html,
@@ -27,6 +28,10 @@ body {
 
 .custom-text-gold {
   color: #d7cbc1;
+}
+
+.link-base {
+  @apply py-2 text-[16px] font-semibold uppercase hover:opacity-60 transition-colors tracking-wide;
 }
 
 .star-after {
