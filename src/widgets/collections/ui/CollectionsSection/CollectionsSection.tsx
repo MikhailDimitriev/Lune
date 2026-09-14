@@ -11,7 +11,7 @@ export const CollectionsSection = () => {
             Collections
           </p>
 
-          <h2 className="font-display text-4xl font-medium tracking-wide text-balance sm:text-5xl">
+          <h2>
             Find your magic
           </h2>
         </div>

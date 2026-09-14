@@ -4,7 +4,7 @@ import {NavLink} from "react-router";
 
 const NavigationsLinksList = () => {
   return (
-    <nav className="flex justify-between items-center gap-12 text-[12px] font-medium tracking-[0.2em] uppercase lg:gap-20 lg:text-[13px]">
+    <nav className="hidden lg:flex justify-between items-center gap-12 text-[12px] font-medium tracking-[0.2em] uppercase lg:gap-20 lg:text-[13px]">
       {navLinks.map((link) => (
         <NavLink
           key={link.to}

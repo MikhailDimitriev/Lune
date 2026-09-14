@@ -56,7 +56,7 @@ export const SocialList = () => {
             target="_blank"
             rel="noreferrer"
             aria-label={social.name}
-            className="flex h-10 w-10 items-center justify-center rounded-full border border-black/15 text-black/70 transition-colors hover:border-gold hover:text-gold"
+            className="flex h-10 w-10 items-center justify-center rounded-full border border-white/15 text-white/70 transition-colors hover:border-gold hover:text-gold"
           >
             {socialIcons[social.name]}
           </Link>

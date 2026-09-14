@@ -5,7 +5,7 @@ export const NewsSubscriptionForm = () => {
 
   return (
     <div>
-      <h3 className="mb-6 text-xs font-semibold tracking-[0.25em] text-black uppercase">
+      <h3 className="mb-6 text-xs font-semibold tracking-[0.25em] text-white/80 uppercase">
         Stay connected
       </h3>
 
@@ -13,7 +13,7 @@ export const NewsSubscriptionForm = () => {
         <p className="text-sm">Thank you for subscribing!</p>
       ) : (
         <>
-          <p className="mb-5 text-sm text-black/60">
+          <p className="mb-5 text-sm text-white/60">
             Join our universe and get 10% off your first order.
           </p>
 
@@ -24,13 +24,13 @@ export const NewsSubscriptionForm = () => {
               onChange={(event) => setEmail(event.target.value)}
               placeholder="Your email"
               required
-              className="w-full border p-3 rounded-xl border-black/25 text-sm transition-colors duration-100"
+              className="w-full border p-3 rounded-xl border-gold/25 text-sm transition-colors duration-100"
             />
 
             <button
               type="submit"
               aria-label="Subscribe"
-              className="absolute top-1/2 right-0 -translate-y-1/2 p-3 rounded-xl border border-black/25 text-black transition-colors hover:bg-gold-light"
+              className="absolute top-1/2 right-0 -translate-y-1/2 p-3 rounded-xl border border-gold/25 text-white transition-colors hover:opacity-60"
             >
               <svg
                 viewBox="0 0 24 24"

@@ -7,8 +7,8 @@ type FooterNavigationsProps = {
 
 export const FooterNavigations = ({ title, links }: FooterNavigationsProps) => {
   return (
-    <div>
-      <h3 className="p-1 mb-6 text-xs font-semibold tracking-[0.25em] text-black uppercase">
+    <div className="text-white/80">
+      <h3 className="p-1 mb-6 text-xs font-semibold tracking-[0.25em] uppercase">
         {title}
       </h3>
 
@@ -17,7 +17,7 @@ export const FooterNavigations = ({ title, links }: FooterNavigationsProps) => {
           <Link
             key={link.label}
             to={link.to}
-            className="p-1 text-sm text-black/60 transition-colors hover:text-gold"
+            className="p-1 text-sm transition-colors hover:text-gold"
           >
             {link.label}
           </Link>

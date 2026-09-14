@@ -18,6 +18,10 @@ body {
   }
 }
 
+h2 {
+  @apply text-4xl lg:text-5xl 2xl:text-6xl font-display font-medium tracking-wide text-balance;
+}
+
 .inline-padding {
   @apply px-12 sm:px-16 lg:px-24
 }

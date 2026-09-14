@@ -1,5 +1,5 @@
 import { Link } from "react-router";
-import { cartCount } from "../../model/cart.model";
+import {cartCount} from "~/entities/cart/model/cart.model";
 
 export const CartIcon = () => {
   return (

@@ -1,6 +1,6 @@
 import React from 'react';
 import {collectionsList} from "~/widgets/collections/model/collectionsLinks";
-import {CollectionCard} from "~/widgets/collections/ui/ProductCard";
+import {CollectionCard} from "~/widgets/collections/ui/CollectionCard";
 
 const CollectionsList = () => {
   return (
